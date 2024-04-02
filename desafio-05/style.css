@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;    
+}
+
+body {
+    width: 100vw;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+
+.home img {
+    
+    width: 364px;
+    height: 370px;
+    align-items: center;
+
+}
+
+.text-home {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.home h1 {
+    color: #B52184;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+.home h2 {
+    color: #312D64;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#arrow {
+    width: 58.587px;
+    height: 105px;
+
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+    
+}
+
+#cards {
+    display: flex;
+    width: 100vw;
+    height: 1242px;
+    padding: 52.972px 91.874px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);;
+}
+
+.card {
+    display: flex;
+    padding: 26.486px;
+    width: 352px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33.108px;
+    align-self: stretch;  
+    
+    border-radius: 19.865px;
+    background: #FFF;
+    box-shadow: 0px 3.311px 13.243px 0px rgba(0, 0, 0, 0.25);   
+}
+
+.card h1 {
+    color: #B52184;
+
+    font-family: Mulish;
+    font-size: 29.219px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.card p {
+    color: #312D64;
+
+    font-family: Mulish;
+    font-size: 16.042px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+
+    padding-top: 60px;
+    padding: 70px;
+
+}
+
+.contact h1 {
+    color: #B52184;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.contact input {
+    display: flex;
+    width: 348px;
+    padding: 12px 16px 12px 14px;
+    align-items: center;
+    
+    gap: 20px;
+
+    border-radius: 16px;
+    border: 1.5px solid #312D64;
+
+}
+
+#person {
+    background-image: url(./person.svg);
+    background-repeat: no-repeat;
+
+    background-position: 10px;
+}
+
+#email {
+    background-image: url(./at.svg);
+    background-repeat: no-repeat;
+
+    background-position: 10px;
+}
+
+.contact input::placeholder {
+    color: #312D64;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+
+    padding: 30px;
+    align-items: center;
+}
+
+.contact textarea {
+    display: flex;
+    width: 348px;
+    padding: 12px 16px 16px 16px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 16px;
+    border: 1.5px solid #312D64;
+
+    
+}
+
+.contact textarea::placeholder {
+    color: #312D64;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+}
+
+.contact button {
+    display: inline-flex;
+    height: 45px;
+    width: 151px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+    border: none;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+
+    color: var(--Neutral-Colors-White, #FFF);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    text-transform: capitalize;
+
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 78px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%)
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+
+    font-family: Mulish;
+    font-size: 19.381px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (min-width: 1120px) {
+
+.home {
+    display: flex;
+    flex-direction: row-reverse;
+
+    justify-content: space-around;
+
+    width: 1440px;
+    height: 836px;
+
+    
+}
+
+.image-home {
+    padding-top: 0;
+
+    height: 100%;
+}
+
+.image-home img {
+    width: 719.36px;
+    height: 732.357px;
+
+
+    overflow: hidden;
+}
+
+.home h1 {
+    font-size: 58.287px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.home p {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+#arrow {
+    margin-top: 80px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+
+    height: 576px;
+    
+}
+
+.card {
+    width: 366px;
+    height: 448px;
+    
+}
+
+.contact {
+    background-image: url(./image\ 11976.jpg);
+    background-repeat: no-repeat;
+
+    background-position-x: right;
+
+    width: 100%;
+}
+
+}
